@@ -1,0 +1,31 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+section {
+  display: flex;
+}
+
+div {
+  background-color: var(--orange);
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: var(--dark-brown);
+  color: var(--clear);
+}
+
+th,
+td {
+  border: 1px solid var(--dark-brown);
+  padding: 10px;
+}

@@ -1,0 +1,43 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+#mainHeader {
+  background-color: var(--yellow);
+}
+
+#mainHeader h1 {
+  color: var(--orange);
+  text-shadow: 2px 2px 1px #000;
+}
+
+section h1 {
+  color: var(--red);
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .8em;
+  text-align: center;
+  background-color: var(--red);
+  color: var(--clear);
+}

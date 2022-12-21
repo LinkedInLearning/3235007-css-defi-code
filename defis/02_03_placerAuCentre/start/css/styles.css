@@ -1,0 +1,73 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+#mainHeader {
+  background-color: var(--yellow);
+}
+
+#mainHeader h1 {
+  color: var(--orange);
+  text-shadow: 2px 2px 1px #000;
+}
+
+section>h1 {
+  font-size: 1.6em;
+  color: var(--yellow);
+  text-shadow: 0px 0px 2px #000;
+  border-bottom: 3px solid var(--orange);
+}
+
+section h1 {
+  color: var(--red);
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .8em;
+  background-color: var(--red);
+  color: var(--clear);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer section {
+  padding: 20px;
+  border-right: 1px solid var(--clear);
+  background-color: var(--yellow);
+  box-sizing: border-box;
+}
+
+footer section:last-child {
+  border: none;
+}
+
+figure {
+  height: 100vh;
+  width: 100vw;
+  max-width: initial;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}

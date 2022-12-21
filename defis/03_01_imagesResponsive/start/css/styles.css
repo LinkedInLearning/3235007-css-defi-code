@@ -1,0 +1,134 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+#mainHeader {
+  background-color: var(--yellow);
+}
+
+#mainHeader h1 {
+  color: var(--orange);
+  text-shadow: 2px 2px 1px #000;
+}
+
+nav {
+  background-color: var(--red);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: var(--dark-brown);
+  font-size: 1.6em;
+  padding: 20px;
+  display: block;
+  color: var(--clear);
+  transition: background-color 0.3s;
+}
+
+nav ul a:hover {
+  background-color: var(--orange);
+}
+
+section {
+  clear: both;
+  overflow: hidden;
+}
+
+section>header {
+  padding-bottom: 20px;
+}
+
+section>header h1 {
+  font-size: 1.6em;
+  color: var(--yellow);
+  text-shadow: 0px 0px 2px #000;
+}
+
+section>header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+section h1 {
+  color: var(--red);
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .8em;
+  background-color: var(--red);
+  color: var(--clear);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer section {
+  padding: 20px;
+  background-color: var(--yellow);
+  box-sizing: border-box;
+}
+
+footer section:last-child {
+  grid-column: 1 / -1;
+}
+
+footer section:first-child {
+  border-right: 1px solid var(--clear);
+}
+
+footer section:last-child p {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  section>header {
+    display: flex;
+    align-items: center;
+  }
+
+  section>header h1 {
+    flex-shrink: 0;
+    padding: 20px;
+    margin-right: 20px;
+    border-right: 2px solid var(--orange);
+  }
+}

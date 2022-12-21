@@ -1,0 +1,88 @@
+:root {
+  --dark-brown: #403940;
+  --yellow: #F2BE5C;
+  --clear: #FBF1F9;
+  --orange: #F26716;
+  --red: #A63D33;
+  --title-font: Comfortaa, cursive;
+  --body-font: Inter, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-brown);
+}
+
+body>* {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--clear);
+  padding: 20px;
+}
+
+#mainHeader {
+  background-color: var(--yellow);
+}
+
+#mainHeader h1 {
+  color: var(--orange);
+  text-shadow: 2px 2px 1px #000;
+}
+
+nav {
+  background-color: var(--red);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: var(--dark-brown);
+  font-size: 1.6em;
+  padding: 20px;
+  display: block;
+  color: var(--clear);
+  transition: background-color 0.3s;
+}
+
+nav ul a:hover {
+  background-color: var(--orange);
+}
+
+section>h1 {
+  font-size: 1.6em;
+  color: var(--yellow);
+  text-shadow: 0px 0px 2px #000;
+  border-bottom: 3px solid var(--orange);
+}
+
+section h1 {
+  color: var(--red);
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .8em;
+  background-color: var(--red);
+  color: var(--clear);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer section {
+  padding: 20px;
+  border-right: 1px solid var(--clear);
+  background-color: var(--yellow);
+  box-sizing: border-box;
+}
+
+footer section:last-child {
+  border: none;
+}
