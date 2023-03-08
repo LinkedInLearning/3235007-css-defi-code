@@ -8,26 +8,24 @@ DESCRIPTION DE LA FORMATION
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
+Ce cours est intégré avec GitHub Codespaces, un environnement de développement cloud offrant les fonctionnalités de votre IDE préféré sans devoir configurer une machine locale. Avec GitHub Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment.
+Pour lancer Github Codespaces
+1. Cliquez sur le bouton `Code`.
+2. Basculez sur l'onglet `Codespaces`.
+3. Cliquez sur le bouton `Create codespace on main`.
 
-## Branches
+Ces trois étapes sont illustrées dans l'image ci-dessous.
 
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+![Procédure à suivre pour lancer Github Codespaces](assets/codespaces.png)
+ 
+## Utiliser les fichiers d'exercices
 
-## Installation
-
-1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
+Une fois Github Codespaces lancé (voir ci-dessus), vous trouverez les exercices associés à cette formation dans le dossier *defis*. Chaque défi est numéroté comme suit : `[Chapitre]_[Video]_nomDuDéfi`.
+Par exemple, le dossier `01_02_titreDeSection` contient les fichiers nécessaires au défi sur les *titres de sections* qui vous est proposé dans la *seconde* vidéo du *premier* chapitre
 
 ### Formateur
 
-**Nom du formateur** 
+**Damien Bruyndonckx** 
 
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
