@@ -31,5 +31,5 @@ Par exemple, le dossier `01_02_titreDeSection` contient les fichiers nécessaire
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/css-defis-code
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQFJ8iA8deq-qg/learning-public-crop_675_1200/0/1678358421990?e=2147483647&v=beta&t=-FEy9DMo6hDtf_CA8GdAMytJqI3hLdTiDPXdkVxnWMo
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/damien-bruyndonckx
