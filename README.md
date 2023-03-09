@@ -1,4 +1,4 @@
-# Nom final de la formation
+# CSS : défis code
 
 Ce dossier Repository est lié au cours `CSS : défis code`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
