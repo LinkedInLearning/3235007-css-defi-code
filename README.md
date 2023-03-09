@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `CSS : défis code`. Le cours entier est
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Dans ce défi code, Damien Bruyndonckx vous propose de vous attaquer au langage CSS, autrement dit les feuilles de style en cascade, incontournables dans le développement web. Vous verrez comment solutionner des problèmes d'éléments responsive, de dimensions de colonnes, d'alternance de couleurs de rangées et bien d'autres. Ce cours est intégré à GitHub Codespaces, un environnement de développement cloud offrant les fonctionnalités de votre IDE préféré, sans devoir configurer une machine locale. Avec GitHub Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment.
 
 ## Instructions
 
@@ -30,6 +30,6 @@ Par exemple, le dossier `01_02_titreDeSection` contient les fichiers nécessaire
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
+[lil-course-url]: https://www.linkedin.com/learning/css-defis-code
 [lil-thumbnail-url]: https:
-[lil-URL-trainer]: https://
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/damien-bruyndonckx
